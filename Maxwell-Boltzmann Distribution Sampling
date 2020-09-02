@@ -1,3 +1,8 @@
+
+%%% Method for sampling from the Maxwell-Boltzmann Distribution %%% 
+%%% Takes as arguements, the desired number of samples M, and the number of trials N %%%
+%%% Returns the samples and (h, p) from the Kolmogorov-Smirnov (KS) test %%%
+
 [samples, h, p] = BoltzmannSampling(10000, 10000);
 
 function [samples, h, p] =  BoltzmannSampling(M,N)
