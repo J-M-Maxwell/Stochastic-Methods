@@ -42,7 +42,7 @@ for i = 1:N
     %%% Acc are the accepted values %%%
     Acc = nonzeros(X.*Y);
     
-    %%% Remove extra accepted values so there are M = 10,000 samples. %%%
+    %%% Remove extra accepted values so there are M samples. %%%
     Acc(M+1:end) = [];
     
     %%% Create Maxwellian samples generated from standard normals %%%
