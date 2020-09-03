@@ -1,3 +1,8 @@
+%%% Use stochastic simulation to estimate the probability that %%% 
+%%% three randomly generated points on the (X, Y) planes generate %%%
+%%% an obtuse triangle. Takes the desired number of simulations as %%%
+%%% an arguement and returns the estimates probability and standard deviation. %%%
+
 [prob, stderr_of_est] = ObtuseTriangleProb(20000);
 
 function [prob, stderr_of_est] = ObtuseTriangleProb(M)
